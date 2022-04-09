@@ -30,18 +30,16 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(req.body,
-  { where:{
-    id:req.params.id
-  }} ).then(response => res.json(response) )
+  { where:{ id:req.params.id }
+  }).then(response => res.json(response) )
   .catch(err => res.json(err) )
 });
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
   Category.destroy(
-    { where:{
-      id:req.params.id
-    }} ).then(response => res.json(response) )
+    { where:{ id:req.params.id} 
+  }).then(response => res.json(response) )
     .catch(err => res.json(err) )
 });
 
