@@ -54,4 +54,7 @@ For support, email alexwsalazar@yahoo.com
 # Heres a working video of the application :p
 
 
-https://user-images.githubusercontent.com/99907921/162355747-8c9cccbd-e952-4a62-bc3b-4b1805ea72b4.mp4
+https://user-images.githubusercontent.com/99907921/162592070-77342910-646e-476c-bba2-1c3cade9e4f8.mp4
+
+
+
